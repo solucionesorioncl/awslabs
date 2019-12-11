@@ -579,7 +579,7 @@ Resources:
       - !Ref HybridSubnet3
       Tags: 
       - Key: Name
-        Value: !Sub ${AccountNamingConstructor}-tga
+        Value: !Sub ${AccountNamingConstructor}-vpc-tga
       TransitGatewayId: !Ref myTransitGateway
       VpcId: !Ref VPC
   
@@ -593,7 +593,7 @@ Resources:
       - !Ref HybridSubnet3
       Tags: 
       - Key: Name
-        Value: !Sub ${AccountNamingConstructor}-tga
+        Value: !Sub ${AccountNamingConstructor}-vpc-tga
       TransitGatewayId: !Ref MasterTransitGateway
       VpcId: !Ref VPC
 
