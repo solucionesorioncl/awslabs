@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Integrar automatizaciones de seguridad y red personalizadas potenciando el uso de AWS Control Tower, Transit Gateway, Security Hub y todas sus herramientas internas de seguridad.
     <br> 
 </p>
 
@@ -26,11 +26,11 @@
 - [Inicio](#getting_started)
 - [Despliegue](#deployment)
 - [Uso](#usage)
-- [Arquitectura](#arquitectura)
+- [Arquitectura](#built_using)
 - [TODO](../TODO.md)
 - [Contributing](../CONTRIBUTING.md)
-- [Autor](#authors)
-- [Conocimientos](#acknowledgement)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 
@@ -96,10 +96,9 @@ Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [VPC](https://aws.amazon.com/es/vpc/) - VPC
+- [Transit Gateway](https://aws.amazon.com/es/transit-gateway/) - Transit Gateway
+- [CloudFormation](https://aws.amazon.com/es/cloudformation/) - CloudFormation
 
 ## ✍️ Authors <a name = "authors"></a>
 
