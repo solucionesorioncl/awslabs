@@ -1,0 +1,15 @@
+Description: Habilita los serivicios de SecurityHub y Guarduty.
+
+AWSTemplateFormatVersion: '2010-09-09'
+Description: ''
+Resources:
+  SecurityHub:
+    Type: 'AWS::SecurityHub::Hub'
+    Properties: {}
+  GuardDutyMpUGA:
+    Type: 'AWS::GuardDuty::Detector'
+    Properties:
+      Enable: true
+Parameters: {}
+Metadata: {}
+Conditions: {}
